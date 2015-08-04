@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TestEm18-Debug@TestEm18build</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j8</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/simon/Research/geant4/projects/TestEm18build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/simon/Research/geant4/projects/TestEm18build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/TestEm18</name>
+			<type>2</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/DetectorConstruction.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/DetectorConstruction.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/DetectorMessenger.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/DetectorMessenger.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/EventAction.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/EventAction.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/HistoManager.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/HistoManager.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/PhysListEmLivermore.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/PhysListEmLivermore.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/PhysListEmPenelope.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/PhysListEmPenelope.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/PhysListEmStandard.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/PhysListEmStandard.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/PhysicsList.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/PhysicsList.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/PhysicsListMessenger.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/PhysicsListMessenger.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/PrimaryGeneratorAction.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/PrimaryGeneratorAction.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/RunAction.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/RunAction.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/StackingAction.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/StackingAction.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/StepMax.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/StepMax.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/StepMaxMessenger.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/StepMaxMessenger.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/SteppingAction.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/SteppingAction.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Header Files/SteppingVerbose.hh</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/include/SteppingVerbose.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/DetectorConstruction.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/DetectorConstruction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/DetectorMessenger.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/DetectorMessenger.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/EventAction.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/EventAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/HistoManager.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/HistoManager.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/PhysListEmLivermore.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/PhysListEmLivermore.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/PhysListEmPenelope.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/PhysListEmPenelope.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/PhysListEmStandard.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/PhysListEmStandard.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/PhysicsList.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/PhysicsList.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/PhysicsListMessenger.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/PhysicsListMessenger.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/PrimaryGeneratorAction.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/PrimaryGeneratorAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/RunAction.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/RunAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/StackingAction.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/StackingAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/StepMax.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/StepMax.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/StepMaxMessenger.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/StepMaxMessenger.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/SteppingAction.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/SteppingAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/SteppingVerbose.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/src/SteppingVerbose.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] TestEm18/Source Files/TestEm18.cc</name>
+			<type>1</type>
+			<location>/home/simon/Research/geant4/projects/TestEm18/TestEm18.cc</location>
+		</link>
+	</linkedResources>
+</projectDescription>

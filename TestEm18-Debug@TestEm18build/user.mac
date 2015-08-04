@@ -1,0 +1,31 @@
+# $Id: electron.mac 82401 2014-06-18 14:43:54Z gcosmo $
+#
+# macro file for TestEm18.cc
+#
+/control/verbose 2
+/run/verbose 2
+#
+/testem/det/setMat G4_Pb
+/testem/det/setSize 5 cm
+#
+/testem/phys/addPhysics standard 
+#
+#/run/setCut 100 um
+#
+/run/initialize
+#
+/gun/particle e- 
+/gun/energy 1 GeV
+#
+/analysis/setFileName Lead
+# 
+/analysis/h1/set 1 100 0 0.1 GeV	  #continuous eLoss 
+/analysis/h1/set 2 100 0.9 1 GeV	  #secondary  eLoss
+/analysis/h1/set 3 100 0 1 GeV	  #total eLoss
+/analysis/h1/set 4 100 0 1 GeV	  #e- energy spectrum
+/analysis/h1/set 5 100 0 1 GeV	  #gamma energy spectrum
+/analysis/h1/set 6 100 0 10 cm	  #step size
+#
+/run/printProgress 100
+#
+/run/beamOn 1
